@@ -1,0 +1,102 @@
+/* ---------------------
+** Global CSS
+---------------------- */
+.container{
+    height:900px;
+    overflow: hidden;
+}
+.input-group-text {
+    font-size: 0.9rem;
+    font-weight: 500;
+    line-height: 1.5;
+    color: #212529;
+    background-color: transparent;
+    border: 0px solid #ced4da00;
+    width: 100px;
+    justify-content: flex-end;
+}
+
+.form-control {
+    background-color: #DCDCDC;
+}
+.content{
+    background-color: #F8F8F8;
+    text-align: center;
+}
+.btn{
+    background-color: #1f2225;
+    color: #fff;
+    border: none;
+    padding: 9px 60px;
+    transition: 0.3s ease;
+}
+.btn:hover{
+    background-color: #020202;
+    color: #fff;
+}
+#reset-value{
+    float: right;
+}
+.content-details{
+    width: 93%;
+}
+.spacial{
+    color: #112131;
+    font-weight: bold;
+}
+h1{
+    font-weight: 500;
+}
+b{
+    margin: 0px;
+    font-weight: 400;
+}
+.alert{
+    margin-top: 10px;
+    display: none;
+}
+
+
+/* ---------------------
+** Main content
+---------------------- */
+.division{
+    justify-content: flex-start;
+    width: auto;
+}
+
+
+/* ================================================
+** CSS Media Queries for Desktop & Mobile
+=================================================== */
+@media (min-width: 320px) and (max-width: 480px) {
+  
+    .container{
+        height:auto;
+        margin-top: 0px;
+      
+    }
+    .content{
+        padding: 0px 30px 50px 30px;
+    }
+    .content-details{
+        width: 100%;
+    }
+    .input-group-text {
+        width: 60px;
+        justify-content: flex-end;
+    }
+    .input-group{
+        justify-content: space-evenly;
+    }
+    .save-input{
+        width: 38%!important;
+    }
+    .save-amount .btn{
+        margin-top: 20px;
+    }
+    #reset-value {
+        float: none;
+    }
+    
+  }
